@@ -1,0 +1,140 @@
+CSS
+
+.heading-without-background-box  {
+  background: #F8F8F8;
+  border: #E2E2E2 solid 1px;
+  margin: 0 0 20px;
+  width: 100%;
+  padding: 15px 20px;
+}
+.heading-with-box h3 {
+  color: #434343;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.heading-with-box .btn {
+  border: #3D3D3D solid 1px;
+  background: #3D3D3D;
+  padding: 2px 15px;
+  color: #fff;
+  border-radius: 50px;
+  margin: 4px 0 0;
+}
+.heading-with-box a.resolve-color {
+  border: #8EC131 solid 1px;
+  background: #8EC131;
+  padding: 2px 15px;
+  color: #fff;
+  border-radius: 50px;
+  margin: 4px 0 0;
+}
+.heading-with-box a.rejected-color {
+  border: #FF0000 solid 1px;
+  background: #FF0000;
+  padding: 2px 15px;
+  color: #fff;
+  border-radius: 50px;
+  margin: 4px 0 0;
+}
+a.grey-color {
+  color: #434343;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.detail-box {
+  border: #E2E2E2 solid 1px;
+  width: 100%;
+  margin: 0 0 20px;
+}
+.detail-box h1 {
+  background: #F7F7F7;
+  font-size: 18px;
+  padding: 15px;
+  color: #434343;
+  margin: 0 0 20px;
+}
+.detail-box-inner b {
+  color: #0A2C60;
+  font-weight: 500;
+  font-size: 14px;
+}
+.detail-box-inner p {
+  color: #434343;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 5px 0 30px;
+}
+.dt {
+  font-size: 16px;
+  margin: 0 0 24px;
+  color: #757575;
+  font-weight: 400;
+}
+.detail-box-inner strong {
+  color: #0A2C60;
+  font-weight: bold;
+  font-size: 15px;
+}
+.green-text {color:#8EC131 !important;}
+.detail-box h1 a {
+  font-size: 18px;
+  color: #0A2C60;
+  font-weight: 400;
+}
+.detail-pdf-box {
+  text-align: center;
+}
+.detail-pdf-box img {
+  border: #dfdfdf solid 1px;
+}
+.all-pdf-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ECECEC;
+  height: 150px;
+  font-size: 44px;
+  color: #434343;
+  font-weight: 500;
+  margin: 0 0 30px;
+}
+.btn-back {border: #707070 solid 1px;width: 100%;color: #434343;font-weight: 500;background: #fff;}
+.btn-approve-claim {border: #8EC131 solid 1px;width: 100%;color: #fff;font-weight: 500;background: #8EC131;}
+.btn-reject-claim {border: #FF0000 solid 1px;width: 100%;color: #FF0000;font-weight: 500;background: #FFF;}
+.btn-resubmit {border: #002E5E solid 1px;width: 100%;color: #fff;font-weight: 500;background: #002E5E;}
+.btn-back:hover, .btn-approve-claim:hover, .btn-reject-claim:hover, .btn-resubmit:hover {border: #000 solid 1px;color: #fff;background: #000;}
+
+.detail-box button.btn.btn-primary {
+  margin: 15px 12px 30px;
+  background: #002E5E;
+  color: #fff;
+  padding: 8px 25px;
+}
+.detail-box button.btn.btn-primary:hover {
+  background: #8EC131;
+  color: #fff;
+}
+.popup-form .modal-header {
+  text-align: center;
+  width: 100%;
+  background: #EEF1F5;
+}
+.popup-form .modal-header h5 {
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  color: #434343;
+  font-weight: 500;
+}
+.popup-form .col-form-label {
+  color: #434343;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-weight: 500;
+}

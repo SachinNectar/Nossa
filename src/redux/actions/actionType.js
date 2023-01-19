@@ -1,0 +1,11 @@
+export const SAVE_INSTANCE = "SAVE_INSTANCE";
+export const UPDATE_INSTANCE = "UPDATE_INSTANCE";
+export const REMOVE_INSTANCE = "REMOVE_INSTANCE";
+export const REMOVE_ALL = "REMOVE_ALL";
+export const SAVE_ALL = "SAVE_ALL";
+export const CREATE_FORM = "CREATE_FORM";
+export const UPDATE_FORM = "UPDATE_FORM";
+export const CLEAR_ALL = "CLEAR_ALL";
+export const CLEAR_FORM = "CLEAR_FORM";
+export const CLEAR_MODEL = "CLEAR_MODEL";
+export const REMOVE_BY_KEY = "REMOVE_BY_KEY";

@@ -1,0 +1,129 @@
+
+
+.color-green {color: var(--secondary);}
+a.danger-color {
+  color: #FF0000;
+  font-weight: 500;
+}
+.policy-box {
+  width: 100%;
+  border: #E2E2E2 solid 1px;
+  padding: 20px;
+}
+.table-data span {
+  color: #434343;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+.table-data b {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 45px;
+  display: block;
+}
+.table-data p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  display: block;
+}
+.table-data a {
+  color: #0099FF;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  display: block;text-transform: capitalize;
+}
+.policy-box .btn a {color: #fff;}
+.policy-box .btn-close {
+  width: 100%;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+  background: #FF0000;
+  border: #FF0000 solid 1px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px;
+  margin: 25px 0;
+  text-decoration: none;
+}
+.policy-box .btn-close:hover {
+  background: #000 !important;
+  border: #000 solid 1px !important;
+  color: #fff !important;
+}
+.policy-box .btn-close.renew-btn {
+  background: #8EC131;
+  border: #8EC131 solid 1px;
+}
+.policy-box .btn-close.premium-btn {
+  background: #002E5E;
+  border: #002E5E solid 1px;
+}
+.policy-box .btn-close.claim-btn {
+  background: #fff;
+  color: #002E5E;
+  border: #707070 solid }
+
+  .payment-box ul#pills-tab {
+    border-bottom: #707070 solid 1px;
+  }
+  .payment-box .nav-pills .nav-link {
+    border: #EEF1F5 solid 1px;
+    border-radius: 8px 8px 0 0;
+    margin: 0 8px 0 0;
+  }
+  .payment-box .nav-pills .nav-link.active, .nav-pills .show > .nav-link {background: #EEF1F5;color:#3D3D3D;}
+  .payment-box ul li a {
+    color: #434343;
+  }
+  form.payment-form {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 0 0 20px;
+  }
+  .payment-box button.btn.btn-primary {
+    background: #002E5E;
+    font-size: 18px;
+    padding: 10px 70px;
+  }
+  
+  .invoice-start-box .modal-content {
+    text-align: center;
+    align-items: center;
+  }
+  .invoice-star {
+    position: relative;
+    margin-top: -80px;
+  }
+  .invoice-star img {
+    width: 130px;
+  }
+  .invoice-start-box h2 {
+    font-size: 28px;
+    color: #3D3D3D;
+    margin: 28px 0;
+  }
+  .invoice-start-box .modal-footer {border-top:none;}
+  .invoice-start-box .btn {
+    width: 185px;
+    margin: 0 0 24px 20px;
+  }
+  .invoice-start-box .btn-secondary {
+    background: #fff;
+    color: #434343;
+    border: #707070 solid 1px;
+    font-weight: 500;
+  }
+  .invoice-start-box .btn-primary {
+    background: #002E5E;
+    color: #fff;
+    border: #002E5E solid 1px;
+    font-weight: 500;
+  }
+  .invoice-start-box .btn-secondary:hover, .invoice-start-box .btn-primary:hover {background: #000;color: #fff;}

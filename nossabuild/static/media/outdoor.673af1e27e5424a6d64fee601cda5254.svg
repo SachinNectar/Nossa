@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="39" viewBox="0 0 43 39">
+  <g id="outdoor" transform="translate(-811 -515)">
+    <rect id="Rectangle_1484" data-name="Rectangle 1484" width="43" height="39" transform="translate(811 515)" fill="#8ec131"/>
+    <path id="Icon_map-doctor" data-name="Icon map-doctor" d="M18.644,5.851H16.539V3.616A2.867,2.867,0,0,0,13.677.72H8.285a2.867,2.867,0,0,0-2.862,2.9V5.851H3.317A2.55,2.55,0,0,0,.72,8.389v9.837a2.593,2.593,0,0,0,2.6,2.589H18.644a2.594,2.594,0,0,0,2.6-2.59V8.389A2.55,2.55,0,0,0,18.644,5.851ZM7.133,3.616A1.235,1.235,0,0,1,8.285,2.43h5.392a1.236,1.236,0,0,1,1.152,1.186V5.851h-7.7Zm8.551,11.64H12.691v2.993H9.271V15.257H6.278v-3.42H9.271V8.843h3.42v2.993h2.993v3.42Z" transform="translate(821.28 522.279)" fill="#fff"/>
+  </g>
+</svg>

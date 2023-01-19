@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Nossa-User | User Policy details</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body className="sb-nav-fixed bg-light">
+        <nav className="sb-topnav navbar navbar-expand ">
+            <a className="navbar-brand" href="index.html"><img className="img-fluid" src="assets/img/logo.png" alt="" width="80%" ></a>
+            <button className="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i className="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+
+            <form className="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div className="input-group custome-search">
+                    <input className="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                    <div className="input-group-append">
+                        <button className="btn btn-primary" type="button"><i className="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+
+            <ul className="navbar-nav ml-auto ml-md-0">
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle " id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-bell"></i></a>
+                    <div className="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a className="dropdown-item small" href="#">Jhon Submited the claims</a>
+                        <a className="dropdown-item small" href="#">MacMohn on leave today</a>
+                        <a className="dropdown-item small" href="#">Jerry submitted the application form</a>
+                        <a className="dropdown-item small" href="#">Jhon Submited the claims</a>
+                        <a className="dropdown-item small" href="#">MacMohn on leave today</a>
+                    </div>
+                </li>
+            </ul>
+            
+
+            <!-- Navbar-->
+            <ul className="navbar-nav ml-auto ml-md-0">
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/thumb.png" className="circle" width="35px" height="35px " alt=""></a>
+                    <div className="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a className="dropdown-item small" href="#">Edit Profile</a>
+                        <a className="dropdown-item small" href="#">My Inbox</a>
+                        <a className="dropdown-item small" href="#">Settings</a>
+                        <div className="dropdown-divider"></div>
+                        <a className="dropdown-item small" href="login.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav className="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div className="sb-sidenav-menu">
+                        <div className="nav mt-4">
+                            <a className="nav-link " href="index.html">
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div> -->
+                                Dashboard
+                            </a>
+                            <a className="nav-link" href="payment-history.html" >
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div> -->
+                                My Policies
+                                <!-- <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div> -->
+                            </a>
+                            <!-- <div className="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav className="sb-sidenav-menu-nested nav">
+                                    <a className="nav-link" href="#">Submenu-1</a>
+                                    <a className="nav-link" href="#">Submenu-2</a>
+                                </nav>
+                            </div> -->
+                            
+                            <!-- <div className="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav className="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Add Employees
+                                        <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div className="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav className="sb-sidenav-menu-nested nav">
+                                            <a className="nav-link" href="login.html">Login</a>
+                                            <a className="nav-link" href="register.html">Register</a>
+                                            <a className="nav-link" href="password.html">Forgot Password</a>
+                                        </nav>
+                                    </div>
+                                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Check Attendance
+                                        <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div className="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav className="sb-sidenav-menu-nested nav">
+                                            <a className="nav-link" href="401.html">401 Page</a>
+                                            <a className="nav-link" href="404.html">404 Page</a>
+                                            <a className="nav-link" href="500.html">500 Page</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div> -->
+                            <a className="nav-link" href="service-request.html">
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div> -->
+                                Service Request
+                            </a>
+                            <a className="nav-link" href="claims.html">
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div> -->
+                                Claims
+                            </a>
+                            <a className="nav-link" href="complaints.html">
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div> -->
+                                Complaints
+                            </a>
+                            <a className="nav-link" href="#">
+                                <!-- <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div> -->
+                                Settings
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div className="sb-sidenav-footer">
+                        <div className="small">Logged in as:</div>
+                        Start Bootstrap
+                    </div> -->
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div className="container-fluid">
+                        <div className="row d-flex align-items-center justify-content-between">
+                            <div className="col-lg-12 text-left">
+                                <div className="breadcrumb-custom mt-4 mb-4">
+                                    <ol className="breadcrumb">
+                                        <li className="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li className="breadcrumb-item"><a href="#">Pay Premium /</a></li>
+                                        <li className="breadcrumb-item"><a href="#">My Active Policies / </a></li>
+                                        <li className="breadcrumb-item active" aria-current="page">NS00011133</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row d-flex align-items-center justify-content-between">
+                            <div className="col-12">
+                                <div className="heading-with-box">
+                                    <div className="row">
+                                        <div className="col-lg-6 col-md-6 text-left">
+                                            <h3>Policies No. : <span className="color-green">NS00011133</span></h3>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 text-right">
+                                            <a href="" className="danger-color" data-toggle="modal" data-target="#addPolicyList">Status: Premium Due <img src="assets/img/warning.svg" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="policy-box">
+                            <div className="row">
+                                <div className="col-12">
+                                    <div className="table-data">
+                                        <span>Policy Holder Name</span>
+                                        <b>Jason Pablo</b>
+                                    </div>
+                                </div>
+                                <div className="clearfix"></div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Policy</span>
+                                        <b>Acidentes de Trabalho</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Policy Type</span>
+                                        <b>General</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Policy Start date</span>
+                                        <b>14-08-2020 11:10:34 AM</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Maturity date <img src="assets/img/info_outline.png" /></span>
+                                        <b>13-08-2022 11:10:34 AM</b>
+                                    </div>
+                                </div>
+                                <div className="clearfix"></div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Premium plan</span>
+                                        <b>Yearly</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Premium</span>
+                                        <b>$ 2270 /-</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        <span>Premium Due date</span>
+                                        <b>13-08-2021 11:10:34 AM</b>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-3 col-sm-3">
+                                    <div className="table-data">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 col-md-10">
+                                    <div className="table-data">
+                                        <span>Details</span>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            see more
+                                        </a>
+                                        <div className="collapse" id="collapseExample">
+                                            <p className="mt-2">
+                                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 col-md-2">
+                                    <a href="#" className="btn-close">Close Policy</a>
+                                </div>
+                                <div className="col-12 col-md-2">
+                                    <a href="#" className="btn-close renew-btn">Renew Policy</a>
+                                </div>
+                                <div className="col-12 col-md-2">
+                                    <a href="#" className="btn-close premium-btn">Pay Premium</a>
+                                </div>
+                                <div className="col-12 col-md-2">
+                                    <a href="#" className="btn-close claim-btn">Claim Request</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer className="py-4 bg-light mt-auto">
+                    <div className="container-fluid">
+                        <div className="d-flex align-items-center justify-content-between small">
+                            <div className="text-muted">Copyright &copy; Nossa 2020</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
+    </body>
+</html>

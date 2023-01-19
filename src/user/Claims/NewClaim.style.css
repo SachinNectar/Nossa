@@ -1,0 +1,122 @@
+.breadcrumb-custom .breadcrumb {
+    padding: 0;
+    border-radius: 0;
+    background: none;
+  }
+  .breadcrumb-custom .breadcrumb-item {
+    color: #A1A1A1;
+  }
+  .breadcrumb-custom .breadcrumb-item a {
+    color: #3D3D3D;
+  }
+  .heading-with-box {
+    background: #F8F8F8;
+    border: #E2E2E2 solid 1px;
+    margin: 0 0 20px;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .heading-with-box h3 {
+    color: #434343;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+  .heading-with-box .btn {
+    border: #3D3D3D solid 1px;
+    background: #3D3D3D;
+    padding: 2px 15px;
+    color: #fff;
+    border-radius: 50px;
+    margin: 8px 0 0;
+  }
+  
+  .faq-custom #faq .card {
+    margin-bottom: 20px;
+    border: 0;
+  }
+  
+  .faq-custom #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  .faq-custom #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #8EC131;
+    color: #fff;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .faq-custom #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+  
+  .faq-custom #faq .card .card-header .btn-header-link.collapsed {
+    background: #8EC131;
+    color: #fff;
+  }
+  
+  .faq-custom #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  .faq-custom #faq .card .collapsing {
+    background: #fff;
+    line-height: 30px;
+  }
+  
+  .faq-custom #faq .card .collapse {
+    border: 0;
+  }
+  
+  .faq-custom #faq .card .collapse.show {
+    background: #fff;
+    line-height: 30px;
+    color: #434343;
+  }
+  
+  .file {
+    position: relative;
+    overflow: hidden;
+  }
+  .file.btn {
+    background: #3D3D3D;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 0px;
+  }
+  .file input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+  .form-custom label.form-check-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .form-custom label {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .form-custom .form-control {
+    border: #707070 solid 1px;
+  }
+  #acc-subdivwrapper{
+    flex-direction:'row';
+    display:'flex'
+  }

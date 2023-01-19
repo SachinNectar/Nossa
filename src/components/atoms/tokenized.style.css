@@ -1,0 +1,42 @@
+.token-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.token-input {
+  width: 70%;
+}
+
+.add-button {
+  width: 20%;
+  margin: auto;
+}
+
+.token-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.token {
+  min-width: 80px;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  color: blue;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.token-text {
+  padding: 0 2px;
+}
+
+.remove {
+  padding: 0px 5px;
+  font-size: 10px;
+  cursor: pointer;
+}

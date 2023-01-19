@@ -1,0 +1,13 @@
+.ant-table-thead > tr > th {
+    background: #8ec131;
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+
+.ant-tag-has-color, .ant-tag-has-color a, .ant-tag-has-color a:hover, .ant-tag-has-color .anticon-close, .ant-tag-has-color .anticon-close:hover {
+    color: #fff;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+}
