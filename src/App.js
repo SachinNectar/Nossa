@@ -30,9 +30,12 @@ import AdminClaims from "./Admin/Claims/AdminClaims";
 import AdReceivedpremium from "./Admin/Premium/Receivedpremium";
 import AdServices from "./Admin/services/AdServiceReq";
 import HrList from "./Admin/Hr list/Hrlist";
+
 import AdListedPolocies from "./Admin/Listed polices/listedpolocies";
 import AdminComplaint from  "./Admin/complaints/AdminComplaint"
-import HrReimbursment from "./Hr/Client/Reimbursment/HrReimbursment";
+
+
+// import HrReimbursment from "./Hr/Client/Reimbursment/HrReimbursment";
 import AdReimbursment from "./Admin/Reimbursment/AdReimbursment";
 import AdHolidays from "./Admin/Holiday/Holidays";
 import HrHolidays from "./Hr/HrHolidays";
