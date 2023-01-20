@@ -4,8 +4,10 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 // import Help from './landingPage/Help&support';
 // import Paypremium from "./landingPage/Paypremium"
 //import Login from "./Authentication/Login";
-import CreateAccount from "./Authentication/CreateAccount";
+//import CreateAccount from "./Authentication/CreateAccount";
 import Dashboard from "../src/user/Dashboard";
+
+
 import Noosa from "./user/noosa";
 import Hrnoosa from "../src/Hr/Hrnoosa";
 import Adminnoosa from "../src/Admin/Adminnoosa";
